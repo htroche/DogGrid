@@ -10,7 +10,6 @@
 		69903A38E0BE3F49EB2B29B5 /* Pods_DogGrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3424213CCBE24E8FD20CBB /* Pods_DogGrid.framework */; };
 		9DBCA5D51FAD333500F93BC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA5D41FAD333500F93BC7 /* AppDelegate.m */; };
 		9DBCA5DB1FAD333500F93BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBCA5D91FAD333500F93BC7 /* Main.storyboard */; };
-		9DBCA5DE1FAD333500F93BC7 /* DogGrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA5DC1FAD333500F93BC7 /* DogGrid.xcdatamodeld */; };
 		9DBCA5E01FAD333500F93BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBCA5DF1FAD333500F93BC7 /* Assets.xcassets */; };
 		9DBCA5E31FAD333500F93BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBCA5E11FAD333500F93BC7 /* LaunchScreen.storyboard */; };
 		9DBCA5E61FAD333500F93BC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA5E51FAD333500F93BC7 /* main.m */; };
@@ -30,7 +29,6 @@
 		9DBCA5D31FAD333500F93BC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9DBCA5D41FAD333500F93BC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9DBCA5DA1FAD333500F93BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9DBCA5DD1FAD333500F93BC7 /* DogGrid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DogGrid.xcdatamodel; sourceTree = "<group>"; };
 		9DBCA5DF1FAD333500F93BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DBCA5E21FAD333500F93BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DBCA5E41FAD333500F93BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 				9DBCA5DF1FAD333500F93BC7 /* Assets.xcassets */,
 				9DBCA5E41FAD333500F93BC7 /* Info.plist */,
 				9DBCA5E51FAD333500F93BC7 /* main.m */,
-				9DBCA5DC1FAD333500F93BC7 /* DogGrid.xcdatamodeld */,
 				9DBCA5F21FAD3F1100F93BC7 /* ViewControllers */,
 				9DBCA5F91FAD3F5B00F93BC7 /* Cells */,
 				9DBCA5FE1FAD45C500F93BC7 /* Managers */,
@@ -298,7 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DBCA6031FAD460000F93BC7 /* Dog.m in Sources */,
-				9DBCA5DE1FAD333500F93BC7 /* DogGrid.xcdatamodeld in Sources */,
 				9DBCA5E61FAD333500F93BC7 /* main.m in Sources */,
 				9DBCA5D51FAD333500F93BC7 /* AppDelegate.m in Sources */,
 				9DBCA5EE1FAD3EED00F93BC7 /* DogsViewController.m in Sources */,
@@ -485,19 +481,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9DBCA5DC1FAD333500F93BC7 /* DogGrid.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9DBCA5DD1FAD333500F93BC7 /* DogGrid.xcdatamodel */,
-			);
-			currentVersion = 9DBCA5DD1FAD333500F93BC7 /* DogGrid.xcdatamodel */;
-			path = DogGrid.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9DBCA5C81FAD333500F93BC7 /* Project object */;
 }
