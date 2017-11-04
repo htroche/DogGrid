@@ -7,27 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69903A38E0BE3F49EB2B29B5 /* Pods_DogGrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3424213CCBE24E8FD20CBB /* Pods_DogGrid.framework */; };
 		9DBCA5D51FAD333500F93BC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA5D41FAD333500F93BC7 /* AppDelegate.m */; };
-		9DBCA5D81FAD333500F93BC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA5D71FAD333500F93BC7 /* ViewController.m */; };
 		9DBCA5DB1FAD333500F93BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBCA5D91FAD333500F93BC7 /* Main.storyboard */; };
 		9DBCA5DE1FAD333500F93BC7 /* DogGrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA5DC1FAD333500F93BC7 /* DogGrid.xcdatamodeld */; };
 		9DBCA5E01FAD333500F93BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBCA5DF1FAD333500F93BC7 /* Assets.xcassets */; };
 		9DBCA5E31FAD333500F93BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBCA5E11FAD333500F93BC7 /* LaunchScreen.storyboard */; };
 		9DBCA5E61FAD333500F93BC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA5E51FAD333500F93BC7 /* main.m */; };
+		9DBCA5EE1FAD3EED00F93BC7 /* DogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA5ED1FAD3EED00F93BC7 /* DogsViewController.m */; };
+		9DBCA5F11FAD3F0A00F93BC7 /* DogsHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA5F01FAD3F0A00F93BC7 /* DogsHistoryTableViewController.m */; };
+		9DBCA5F51FAD3F2E00F93BC7 /* DogCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA5F41FAD3F2E00F93BC7 /* DogCollectionViewCell.m */; };
+		9DBCA5F81FAD3F5100F93BC7 /* DogHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA5F71FAD3F5100F93BC7 /* DogHistoryTableViewCell.m */; };
+		9DBCA5FD1FAD45BD00F93BC7 /* PixabayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA5FC1FAD45BD00F93BC7 /* PixabayManager.m */; };
+		9DBCA6031FAD460000F93BC7 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCA6021FAD460000F93BC7 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		262C1303102671553B554BD8 /* Pods-DogGrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogGrid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DogGrid/Pods-DogGrid.debug.xcconfig"; sourceTree = "<group>"; };
+		40E330C228DA478F71A8BE48 /* Pods-DogGrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogGrid.release.xcconfig"; path = "Pods/Target Support Files/Pods-DogGrid/Pods-DogGrid.release.xcconfig"; sourceTree = "<group>"; };
+		6B3424213CCBE24E8FD20CBB /* Pods_DogGrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogGrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBCA5D01FAD333500F93BC7 /* DogGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBCA5D31FAD333500F93BC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9DBCA5D41FAD333500F93BC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9DBCA5D61FAD333500F93BC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9DBCA5D71FAD333500F93BC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9DBCA5DA1FAD333500F93BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DBCA5DD1FAD333500F93BC7 /* DogGrid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DogGrid.xcdatamodel; sourceTree = "<group>"; };
 		9DBCA5DF1FAD333500F93BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DBCA5E21FAD333500F93BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DBCA5E41FAD333500F93BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DBCA5E51FAD333500F93BC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DBCA5EC1FAD3EED00F93BC7 /* DogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogsViewController.h; sourceTree = "<group>"; };
+		9DBCA5ED1FAD3EED00F93BC7 /* DogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogsViewController.m; sourceTree = "<group>"; };
+		9DBCA5EF1FAD3F0A00F93BC7 /* DogsHistoryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogsHistoryTableViewController.h; sourceTree = "<group>"; };
+		9DBCA5F01FAD3F0A00F93BC7 /* DogsHistoryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogsHistoryTableViewController.m; sourceTree = "<group>"; };
+		9DBCA5F31FAD3F2E00F93BC7 /* DogCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogCollectionViewCell.h; sourceTree = "<group>"; };
+		9DBCA5F41FAD3F2E00F93BC7 /* DogCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogCollectionViewCell.m; sourceTree = "<group>"; };
+		9DBCA5F61FAD3F5100F93BC7 /* DogHistoryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogHistoryTableViewCell.h; sourceTree = "<group>"; };
+		9DBCA5F71FAD3F5100F93BC7 /* DogHistoryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogHistoryTableViewCell.m; sourceTree = "<group>"; };
+		9DBCA5FB1FAD45BD00F93BC7 /* PixabayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PixabayManager.h; sourceTree = "<group>"; };
+		9DBCA5FC1FAD45BD00F93BC7 /* PixabayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PixabayManager.m; sourceTree = "<group>"; };
+		9DBCA6011FAD460000F93BC7 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		9DBCA6021FAD460000F93BC7 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		9DBCA6051FAE4AE400F93BC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69903A38E0BE3F49EB2B29B5 /* Pods_DogGrid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +67,8 @@
 			children = (
 				9DBCA5D21FAD333500F93BC7 /* DogGrid */,
 				9DBCA5D11FAD333500F93BC7 /* Products */,
+				A6872020E7DE1EA0C91C58DC /* Pods */,
+				D8CC1CA62B9D35B3D378A5EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,16 +85,84 @@
 			children = (
 				9DBCA5D31FAD333500F93BC7 /* AppDelegate.h */,
 				9DBCA5D41FAD333500F93BC7 /* AppDelegate.m */,
-				9DBCA5D61FAD333500F93BC7 /* ViewController.h */,
-				9DBCA5D71FAD333500F93BC7 /* ViewController.m */,
-				9DBCA5D91FAD333500F93BC7 /* Main.storyboard */,
+				9DBCA5FA1FAD3F9B00F93BC7 /* Storyboards */,
 				9DBCA5DF1FAD333500F93BC7 /* Assets.xcassets */,
-				9DBCA5E11FAD333500F93BC7 /* LaunchScreen.storyboard */,
 				9DBCA5E41FAD333500F93BC7 /* Info.plist */,
 				9DBCA5E51FAD333500F93BC7 /* main.m */,
 				9DBCA5DC1FAD333500F93BC7 /* DogGrid.xcdatamodeld */,
+				9DBCA5F21FAD3F1100F93BC7 /* ViewControllers */,
+				9DBCA5F91FAD3F5B00F93BC7 /* Cells */,
+				9DBCA5FE1FAD45C500F93BC7 /* Managers */,
+				9DBCA6041FAD460400F93BC7 /* Models */,
 			);
 			path = DogGrid;
+			sourceTree = "<group>";
+		};
+		9DBCA5F21FAD3F1100F93BC7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DBCA5EC1FAD3EED00F93BC7 /* DogsViewController.h */,
+				9DBCA5ED1FAD3EED00F93BC7 /* DogsViewController.m */,
+				9DBCA5EF1FAD3F0A00F93BC7 /* DogsHistoryTableViewController.h */,
+				9DBCA5F01FAD3F0A00F93BC7 /* DogsHistoryTableViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9DBCA5F91FAD3F5B00F93BC7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9DBCA5F31FAD3F2E00F93BC7 /* DogCollectionViewCell.h */,
+				9DBCA5F41FAD3F2E00F93BC7 /* DogCollectionViewCell.m */,
+				9DBCA5F61FAD3F5100F93BC7 /* DogHistoryTableViewCell.h */,
+				9DBCA5F71FAD3F5100F93BC7 /* DogHistoryTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9DBCA5FA1FAD3F9B00F93BC7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9DBCA5E11FAD333500F93BC7 /* LaunchScreen.storyboard */,
+				9DBCA5D91FAD333500F93BC7 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9DBCA5FE1FAD45C500F93BC7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9DBCA5FB1FAD45BD00F93BC7 /* PixabayManager.h */,
+				9DBCA5FC1FAD45BD00F93BC7 /* PixabayManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9DBCA6041FAD460400F93BC7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9DBCA6011FAD460000F93BC7 /* Dog.h */,
+				9DBCA6021FAD460000F93BC7 /* Dog.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6872020E7DE1EA0C91C58DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				262C1303102671553B554BD8 /* Pods-DogGrid.debug.xcconfig */,
+				40E330C228DA478F71A8BE48 /* Pods-DogGrid.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8CC1CA62B9D35B3D378A5EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DBCA6051FAE4AE400F93BC7 /* CoreGraphics.framework */,
+				6B3424213CCBE24E8FD20CBB /* Pods_DogGrid.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DBCA5E91FAD333500F93BC7 /* Build configuration list for PBXNativeTarget "DogGrid" */;
 			buildPhases = (
+				3565D983C94EDF06F9EC7893 /* [CP] Check Pods Manifest.lock */,
 				9DBCA5CC1FAD333500F93BC7 /* Sources */,
 				9DBCA5CD1FAD333500F93BC7 /* Frameworks */,
 				9DBCA5CE1FAD333500F93BC7 /* Resources */,
+				6B1A87070A1964CD6D4AFAA0 /* [CP] Embed Pods Frameworks */,
+				5A35E535D80925BBAAD50B8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,15 +234,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3565D983C94EDF06F9EC7893 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogGrid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A35E535D80925BBAAD50B8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogGrid/Pods-DogGrid-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B1A87070A1964CD6D4AFAA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DogGrid/Pods-DogGrid-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogGrid/Pods-DogGrid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DBCA5CC1FAD333500F93BC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DBCA6031FAD460000F93BC7 /* Dog.m in Sources */,
 				9DBCA5DE1FAD333500F93BC7 /* DogGrid.xcdatamodeld in Sources */,
-				9DBCA5D81FAD333500F93BC7 /* ViewController.m in Sources */,
 				9DBCA5E61FAD333500F93BC7 /* main.m in Sources */,
 				9DBCA5D51FAD333500F93BC7 /* AppDelegate.m in Sources */,
+				9DBCA5EE1FAD3EED00F93BC7 /* DogsViewController.m in Sources */,
+				9DBCA5FD1FAD45BD00F93BC7 /* PixabayManager.m in Sources */,
+				9DBCA5F81FAD3F5100F93BC7 /* DogHistoryTableViewCell.m in Sources */,
+				9DBCA5F11FAD3F0A00F93BC7 /* DogsHistoryTableViewController.m in Sources */,
+				9DBCA5F51FAD3F2E00F93BC7 /* DogCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +437,7 @@
 		};
 		9DBCA5EA1FAD333500F93BC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 262C1303102671553B554BD8 /* Pods-DogGrid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,12 +445,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hugo.DogGrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9DBCA5EB1FAD333500F93BC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E330C228DA478F71A8BE48 /* Pods-DogGrid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,7 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hugo.DogGrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

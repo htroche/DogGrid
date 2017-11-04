@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DogCollectionViewCell.h
 //  DogGrid
 //
 //  Created by Hugo Troche on 11/3/17.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DogCollectionViewCell : UICollectionViewCell
 
+@property (strong, nonatomic) IBOutlet UIImageView *dogImage;
 
 @end
-
