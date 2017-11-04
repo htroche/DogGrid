@@ -29,6 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.page = 1;
+    self.dogsCollection.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,6 +38,7 @@
 
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    NSLog(@"%f",self.dogsCollection.contentSize.width);
     //Don't reload the screen between going to history screen and back
     if(dogs != nil && [dogs count] > 0) {
         return;
@@ -127,6 +129,18 @@
     [cell.dogImage sd_setIndicatorStyle:UIActivityIndicatorViewStyleGray];
     [cell.dogImage sd_setImageWithURL:[NSURL URLWithString:dog.imageURL]];
     return cell;
+}
+
+#pragma mark - UICollectionViewFlowDelegate
+// Layout: Set cell size
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    //To support iPhone SE
+    if(self.dogsCollection.contentSize.width <= 320.0) {
+        CGSize mElementSize = CGSizeMake(120, 120);
+        return mElementSize;
+    }
+    CGSize mElementSize = CGSizeMake(150, 150);
+    return mElementSize;
 }
 
 @end

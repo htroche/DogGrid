@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DogsViewController : UIViewController <UICollectionViewDataSource>
+@interface DogsViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (strong, nonatomic) IBOutlet UICollectionView *dogsCollection;
 
